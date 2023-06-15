@@ -8,7 +8,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
 @EnableEurekaClient
-@EntityScan(basePackages = {"com.accelerate.visor.model"})
+@EntityScan(basePackages = {"com.accelerate.visor"})
 public class VisorStudentAppServiceApplication {
 
 	public static void main(String[] args) {
